@@ -17,7 +17,8 @@ int main(int argc, char *argv[])
         }
 
         Finder finderOOP(argv[1]);
-        do
+
+	do
         {
             cout << "Bitte geben Sie den Suchbegriff ein:";
             getline(cin,suchbegriff);
@@ -39,3 +40,4 @@ int main(int argc, char *argv[])
         return 0;
     }
 }
+//Kommentar
